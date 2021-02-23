@@ -22,7 +22,7 @@ for (i = 1; i <= 5; i++){
     // create new img tag and returns its reference object
     const newImage = document.createElement('img');
     // give img tag its src attr value
-    newImage.setAttribute('src', `./images/pic${i}.jpg`);
+    newImage.setAttribute('src', `pic${i}.jpg`);
     //insert new image into div .thumbbar
     thumbBar.appendChild(newImage);
 }
